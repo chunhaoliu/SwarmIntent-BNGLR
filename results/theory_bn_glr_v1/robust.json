@@ -1,0 +1,34 @@
+[
+ {
+  "case": "feint L=D",
+  "alarm_before_window": 0.0,
+  "feint_fa": 0.0,
+  "theory_k_star": 35.62197396966281
+ },
+ {
+  "case": "feint L=D/2",
+  "alarm_before_window": 0.0,
+  "feint_fa": 0.0,
+  "theory_k_star": 35.62197396966281
+ },
+ {
+  "case": "feint random onset",
+  "alarm_before_window": 0.0,
+  "feint_fa": 0.0,
+  "theory_k_star": 35.62197396966281
+ },
+ {
+  "case": "switch",
+  "alarm_before_window": 0.0,
+  "delay_from_switch": 39.889,
+  "alarm_before_switch": 0.0,
+  "theory_k_star": 35.62197396966281
+ },
+ {
+  "case": "feint then switch (gap 5)",
+  "alarm_before_window": 0.0,
+  "delay_from_switch": 34.1995,
+  "alarm_before_switch": 0.0,
+  "theory_k_star": 35.62197396966281
+ }
+]

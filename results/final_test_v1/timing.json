@@ -1,0 +1,1 @@
+{"bnglr_ms_per_scan":0.0028705333307799366,"cpu":"Intel64 Family 6 Model 198 Stepping 2, GenuineIntel","encoder_ms_per_scan":0.13603993333203512,"flights":50,"note":"encoder: full forward over each flight (batch 1) divided by scans; excludes radar, tracker, feature extraction","scans":4500,"threads":1}

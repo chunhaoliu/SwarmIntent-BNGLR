@@ -1,0 +1,13 @@
+{
+ "plan": "results/workflow/final_test_plan_v1.md",
+ "plan_sha256": "635b5b3d7e999b1567f8c917d8f1e219f5a3ec9ce4cfad8a99daf6ee69e45739",
+ "approved_by": "author (chat instruction, 2026-10-16)",
+ "approval_text": "我批准 final_test_plan_v1.md：先补训练 K 类消融编码器，再冻结选点，然后一次性打开最终测试，用结果替换稿件里的数字。",
+ "recorded_at": "2026-10-15T08:05:14Z",
+ "implementation_notes": [
+  "K-class ablation encoder: TGE with 8 swarm classes, trained on the steady and switch flights of train_v2 only (no feint flights, no excursion classes), selected on the steady and switch flights of encoder_val_v2; same training recipe as configs/ast_v2.json.",
+  "Its operating points: Sticky HMM (marginal = its K-class evidence) and CUSUM, same blind threshold split (x3) and development budgets as the main study.",
+  "Final-test split names: final_test_{radar}_v2 (main), mixed3_final_test_{radar}_v2 (mixed); never generated before this record (checked: no cache file matches)."
+ ],
+ "final_test_opened": false
+}
