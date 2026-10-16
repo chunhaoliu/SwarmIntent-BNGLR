@@ -28,6 +28,7 @@ are available from the corresponding author on reasonable request.
 | `results/final_tf2k_v1/` | encoder x decision rule on fresh test flights (plan `results/final_tf2k_plan_v1.md`) |
 | `results/theory_bn_glr_v1/` | stored outputs of the idealized-model simulations |
 | `analysis/reproduce_stats.py` | recomputes method means and all 108 paired McNemar tests from the per-flight files |
+| `GRIDS.md` | parameter grids of every decision layer and the end-to-end training settings |
 
 Each `results/*/test/*.json` file holds, per seed and radar, the flight kinds (`steady`, `switch`,
 `feint`, `feint_switch`), the frozen operating point of every method and its summary. The matching
