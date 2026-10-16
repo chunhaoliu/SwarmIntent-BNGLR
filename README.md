@@ -1,9 +1,9 @@
-# BN-GLR: swarm intent-switch detection under bounded feints (core release)
+# BN-GLR: swarm intent-switch detection under bounded-duration feints (core release)
 
 Code and evaluation outputs for
 
-> C. Liu et al., *Online Detection of UAV Swarm Intent Switches Under Bounded Feints: Learned Regime
-> Evidence and a Delay Bound*, submitted to Aerospace Science and Technology.
+> C. Liu et al., *Detecting UAV Swarm Intent Switches Under Bounded-Duration Feints: A Delay Bound and Learned
+> Regime Evidence*, submitted to Aerospace Science and Technology.
 
 This core release contains the bounded-nuisance GLR (BN-GLR) test, the baseline decision layers, the
 idealized-model simulations of Section 7.1, and the per-flight outcomes of every test-set
